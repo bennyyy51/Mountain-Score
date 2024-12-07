@@ -1,7 +1,7 @@
 # Mountain-Score
 provides a mountain score (mScore) based on a set provided coordinates
 
-1: download the three java files into a package
+1: download the project, make sure Peak.java, Score.java, and Input.java are in the same package
 
 2: run Input.java and input your numbered latitude/longitude coordinates
 
