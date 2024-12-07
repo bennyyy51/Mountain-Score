@@ -1,9 +1,11 @@
 # Mountain-Score
-provides a mountain score (mScore) based on a set provided coordinates
+provides a mountain score (mScore) based on a set of provided coordinates
 
 1: download the project, make sure Peak.java, Score.java, and Input.java are in the same package
 
 2: run Input.java and input your numbered latitude/longitude coordinates
+
+What is mScore? every mountain in the radius of (100,000m) has an mScore given to them coresponding to their distance from the given point and their elevation. totalmScore is the average of every mScore in the radius, topmScore is the mScore of the highest (10) percent of mountain in the radius.
 
 why use mScore? mScore is great for finding the caliber of mountains in a certain area. if you want to compare mountain ranges, see the highest mountains in your area, or find your next hike, mScore is for you!
 
