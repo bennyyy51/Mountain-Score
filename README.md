@@ -5,6 +5,8 @@ provides a mountain score (mScore) based on a set provided coordinates
 
 2: run Input.java and input your numbered latitude/longitude coordinates
 
+why use mScore? mScore is great for finding the caliber of mountains in a certain area. if you want to compare mountain ranges, see the highest mountains in your area, or find your next hike, mScore is for you!
+
 mScore is found by taking both mountain proximity (to provided coordinates) and elevation into account
 
 distance: is converted from lat/lon coordinates to km via the Haversine formula
@@ -14,7 +16,7 @@ elevation: is taken and raised to the power of (eleW) which is 2.0
 
 mScore = (ajusted ele / ajusted dist) / 100
 
-tuning parameters (hours of testing has led me to use these parameters)
+tuning parameters (hours of testing has led to these parameters)
 
   cleaning parameters:
   
